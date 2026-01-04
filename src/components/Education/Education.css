@@ -1,0 +1,68 @@
+.educationSection {
+  background-color: #0f172a;
+  padding: 80px 60px;
+  color: #e2e8f0;
+}
+
+.educationHeading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #3b82f6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.educationList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.educationCard {
+  background-color: #1e293b;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.educationCard:hover {
+  transform: translateY(-8px);
+}
+
+.educationCard h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.educationDetails {
+  font-size: 16px;
+  color: #cbd5e1;
+}
+
+.educationYear {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-top: 8px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .educationCard {
+    width: 100%;
+  }
+}
+.educationScore {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.educationScore span {
+  color: #38bdf8;
+  font-weight: bold;
+}

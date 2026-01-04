@@ -1,0 +1,24 @@
+.footerSection {
+  background-color: #0f172a;
+  padding: 30px 20px;
+  color: #e2e8f0;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.footerIcon {
+  font-size: 24px;
+  color: #e2e8f0;
+  transition: color 0.3s ease;
+}
+
+.footerIcon:hover {
+  color: #3b82f6; /* light blue on hover */
+}

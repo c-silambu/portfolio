@@ -1,0 +1,52 @@
+.skillshow {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px 0;
+}
+
+.disskill {
+  background-color:#0f172a;
+  border-bottom: 2px solid #ec4899;
+  padding: 40px 30px;
+}
+
+.skill {
+  text-align: center;
+  padding: 12px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #3b82f6, #ec4899); /* Matches about.css */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #ec4899, 0 0 30px #3b82f6;
+}
+
+.skillimg {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background-color: #0f172a;
+  border-radius: 50%;
+  padding: 15px;
+  border: 4px solid #0f172a;
+  box-shadow: inset 0 0 12px rgba(59, 130, 246, 0.5);
+}
+
+.skill p {
+  margin-top: 10px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #3b82f6, #ec4899); /* Same gradient text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skillcolor {
+  color: #ec4899;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}

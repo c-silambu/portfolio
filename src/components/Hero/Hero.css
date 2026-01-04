@@ -1,0 +1,101 @@
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 100px 60px;
+  flex-wrap: wrap;
+}
+
+.heroText {
+  flex: 1;
+  max-width: 600px;
+  color: #e2e8f0;
+}
+
+.heroText h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.heroText h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.gradientText {
+  background: linear-gradient(90deg, #3b82f6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.heroDesc {
+  font-size: 18px;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  background-color: #22c55e;
+  color: #0f172a;
+  padding: 12px 24px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btnPrimary:hover {
+  background-color: #16a34a;
+}
+
+.btnOutline {
+  padding: 12px 24px;
+  border: 2px solid #22c55e;
+  color: #22c55e;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btnOutline:hover {
+  background-color: #22c55e;
+  color: #0f172a;
+}
+.heroImage {
+  background: linear-gradient(135deg, #3b82f6, #ec4899);
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.4);
+}
+
+.heroImage img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  display: block;
+  border: 5px solid #0f172a; /* dark center background */
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .heroText {
+    margin-bottom: 40px;
+  }
+}
