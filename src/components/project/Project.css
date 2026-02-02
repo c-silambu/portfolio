@@ -1,0 +1,109 @@
+/* Projects Section */
+#projects {
+  padding: 80px 10%;
+  background: radial-gradient(circle at top, #121a33, #0b1020);
+  color: #ffffff;
+}
+
+#projects h2 {
+  font-size: 2.6rem;
+  margin-bottom: 45px;
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(90deg, #4f7cff, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Project Cards */
+.project-card {
+  background: linear-gradient(
+    160deg,
+    #4f7cff,
+    #8b5cf6,
+    #ec4899
+  );
+  border-radius: 22px;
+  padding: 26px;
+  margin-bottom: 35px;
+  transition: all 0.4s ease;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glass overlay like skills cards */
+.project-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 15, 30, 0.55);
+  backdrop-filter: blur(10px);
+  z-index: 0;
+}
+
+.project-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 25px 60px rgba(139, 92, 246, 0.45);
+}
+
+/* Title */
+.project-card h3 {
+  font-size: 1.55rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Description */
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #e5e7ff;
+}
+
+/* Tech Stack */
+.project-card span {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  padding: 5px 14px;
+  margin: 6px 6px 0 0;
+  border-radius: 18px;
+  font-size: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Links */
+.project-card a {
+  display: inline-block;
+  margin-top: 18px;
+  margin-right: 12px;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4f7cff, #ec4899);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(236, 72, 153, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #projects {
+    padding: 60px 6%;
+  }
+
+  #projects h2 {
+    font-size: 2.1rem;
+  }
+}

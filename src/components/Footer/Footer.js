@@ -9,10 +9,10 @@ const Footer = () => {
         <p>&copy; {new Date().getFullYear()} Silambu C. All rights reserved.</p>
         
         <div className="footerLinks">
-          <a href="https://github.com/your-github" target="_blank" rel="noreferrer">
+          <a href="https://github.com/c-silambu" target="_blank" rel="noreferrer">
             <FaGithub className="footerIcon" />
           </a>
-          <a href="https://www.instagram.com/your-instagram" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/silambu_tn_58/" target="_blank" rel="noreferrer">
             <FaInstagram className="footerIcon" />
           </a>
           <a href="https://www.linkedin.com/in/silambu-c-60496b358/" target="_blank" rel="noreferrer">

@@ -10,7 +10,7 @@ const Education = () => {
           <h3>B.E.CSE</h3>
           <p className="educationDetails">Mangayarkarasi College Of Engineering , Paravai , Madurai.</p>
           <p className="educationYear">2021 - 2025</p>
-          <p className="educationScore">CGPA: <span>7.63</span></p>
+          <p className="educationScore">CGPA: <span>7.69</span></p>
         </div>
 
         <div className="educationCard">
