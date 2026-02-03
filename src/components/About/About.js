@@ -34,7 +34,7 @@ const About = () => {
             <h3>Resume</h3>
             <div className="resumeButtons">
               <a
-                href="/silambu_cv.pdf"
+                href="/SILAMBU_RES.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="resumeBtn"
@@ -43,7 +43,7 @@ const About = () => {
               </a>
 
               <a
-                href="/silambu_cv (3).pdf"
+                href="/SILAMBU_RES.pdf"
                 download
                 className="resumeBtn"
               >
