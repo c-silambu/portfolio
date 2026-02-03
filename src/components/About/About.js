@@ -43,7 +43,7 @@ const About = () => {
               </a>
 
               <a
-                href="/silambu_cv.pdf"
+                href="/silambu_cv (3).pdf"
                 download
                 className="resumeBtn"
               >
