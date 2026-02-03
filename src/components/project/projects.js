@@ -12,6 +12,8 @@ const projects = [
     title: " Company Portfolio Website",
     description: "Personal portfolio built using React + Vite",
     tech: ["React", "css"],
+     github: "https://github.com/c-silambu/company_website",
+    live: "https://company-website-3txx.onrender.com"
    
   }
 ];
