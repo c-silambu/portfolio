@@ -6,32 +6,44 @@ const About = () => {
   return (
     <section className="aboutSection" id="about">
       <div className="aboutContainer">
+        
         <div className="textArea">
           <h2>About Me</h2>
+
           <p>
-            I'm <span className="highlight">Silambu</span>, a fresher with knowledge in full stack web development using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
-          </p>
-          <p>
-            I also have basic knowledge of Java and C programming. I enjoy building web applications and want to improve my skills by working on real projects.
-          </p>
-          <p>
-            I'm always learning and growing in the world of development.
+            I'm <span className="highlight">Silambu</span>, a passionate MERN Stack Developer who enjoys building modern,
+            user-friendly web applications from scratch.
           </p>
 
-          {/* ✅ Resume Section */}
+          <p>
+            I specialize in developing full-stack applications using MongoDB, Express.js, React.js, and Node.js.
+            I focus on writing clean, maintainable code and creating responsive interfaces backed by reliable server-side logic.
+          </p>
+
+          <p>
+            Through my MERN Stack internship, I gained hands-on experience working on real-world projects,
+            including a Billing & Invoice Management System and a professional company portfolio website.
+          </p>
+
+          <p>
+            Along with web development, I have a basic foundation in  C programming.
+            I’m always learning new technologies, improving my skills, and growing as a developer with every project I build.
+          </p>
+
           <div className="resumeSection">
             <h3>Resume</h3>
             <div className="resumeButtons">
               <a
-                href="/resume.pdf"
+                href="/silambu_cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="resumeBtn"
               >
                 <FaEye className="icon" /> View
               </a>
+
               <a
-                href="/resume.pdf"
+                href="/silambu_cv.pdf"
                 download
                 className="resumeBtn"
               >
@@ -44,6 +56,7 @@ const About = () => {
         <div className="imageArea">
           <img src="silambuimg2.jpg" alt="Silambu" />
         </div>
+
       </div>
     </section>
   );
