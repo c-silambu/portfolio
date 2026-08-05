@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply m-0 bg-ink font-sans text-slate-300 antialiased; }
+  ::selection { @apply bg-cyan-400 text-slate-950; }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .section-shell { @apply mx-auto max-w-7xl px-5 py-20 sm:px-8 sm:py-24 lg:px-12; }
+  .section-label { @apply mb-3 text-xs font-bold uppercase tracking-[0.28em] text-cyan-400; }
+  .section-title { @apply font-display text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl; }
+  .glass-card { @apply border border-white/10 bg-white/[0.045] backdrop-blur-sm transition duration-300; }
 }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #070b14; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 999px; }

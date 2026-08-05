@@ -12,7 +12,7 @@ import nodejs from "../../assets/skills/nodejs.jpeg"
 const Ss=[
     {
         img:react,
-        skill:"react",
+        skill:"React",
     },
     {
         img:html,
@@ -24,27 +24,27 @@ const Ss=[
     },
     {
         img:js,
-        skill:"java script",
+        skill:"JavaScript",
     },
     {
         img:java,
-        skill:"java",
+        skill:"Java",
     },
     {
         img:c,
-        skill:"c",
+        skill:"C",
     },
     {
         img:mongodb,
-        skill:"mongodb",
+        skill:"MongoDB",
     },  
     {
         img:expressjs,
-        skill:"expressjs",
+        skill:"Express.js",
     },
     {
         img:nodejs,
-        skill:"nodejs",
+        skill:"Node.js",
     },     
     
 
